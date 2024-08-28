@@ -56,8 +56,8 @@ Route::get("http_sender", function () {
 
     return response()->json(["status" => $response]);
 });
-
 ```
+### You can do the same thing with every class in laravel that has Macroable trait
 ### Credit : 
 [Unleashing the Magic of Laravel Macros](https://medium.com/simform-engineering/unleashing-the-magic-of-laravel-macros-c079ebee11cc)
 
